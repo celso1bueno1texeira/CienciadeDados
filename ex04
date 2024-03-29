@@ -14,3 +14,12 @@ Input	Result
 5.10
 19.61
 '''
+"""
+exer06
+  >>> Faça um programa em Python 3 que leia uma linha contendo um texto (string) da entrada padrão e imprima o texto com todos os seus caracteres em minúsculo.
+Dica:
+Uma maneira de fazer a leitura é:
+texto = input()
+A função s.lower() retorna a string, s, em minúsculo.
+
+"""
