@@ -109,3 +109,67 @@ print(maior(a, b))
 7
 
 """
+
+"""
+Faça uma função chamada dias que retorne o número de dias que um dado mês, passado por argumento, contém. O mês é indicado por um número entre 1 e 12, sendo 1 o mês de janeiro. 
+A sua função deve também receber um argumento opcional chamado bissexto de valor padrão False. 
+Quando o valor do argumento bissexto é True considere fevereiro com 29 dias, senão 28.
+For example:
+Test	                  Result
+print(dias(1))           31
+print(dias(2))           28
+print(dias(2, True))     29
+print(dias(3))           31
+print(dias(2, bissexto=True))29
+print(dias(2, bissexto=False))28
+"""
+
+'''
+Implemente as classes, Veiculo e Carro conforme diagrama abaixo em Python.
+Especificação:
+Os nomes devem ser precisamente como estabelecidos;
+Classe Veiculo:
+Deve ter dois atributos: nome (string), com padrão "" e valor (int), com padrão 0
+Deve ter três métodos: o de inicialização (__init__), __str__ e get_valor:
+__init__: Além do argumento self deve receber os argumentos nome e valor nesta ordem e iniciar os atributos com os respectivos nomes;
+__str__: Recebe apenas o argumento self, simplesmente retorna o atributo nome;
+get_valor: Recebe apenas o argumento self, simplesmente retorna o atributo valor;
+Classe Carro:
+Deve herdar da classe Veiculo (i.e. é sub classe de Veiculo)
+Deve ter um atributo: portas (int)
+Deve respeitar os atributos padrões da classe Veiculo
+Deve ter dois métodos o de inicialização (__init__) e get_portas:
+__init__: Além do argumento self deve receber os argumentos portas, nome e valor nesta ordem e iniciar os atributos com os respectivos nomes. 
+Use super() para chamar o __init__ da super classe (Veiculo) para iniciar os atributos nome e valor;
+get_portas: Recebe apenas o argumento self, simplesmente retorna o atributo portas;
+Os casos de teste testarão tanto quanto ao uso das classes quanto a correta implementação das especificações acima.
+Dica: Estude os casos de teste de exemplo.
+For example:
+
+Test	                                                 Result
+v1 = Veiculo("Corsa", 32000)
+print(v1)                                                Corsa
+print(v1.get_valor())                                    32000
+
+v2 = Veiculo("Corsa 2")
+print(v2)                                                Corsa 2
+print(v2.get_valor())                                       0
+
+c1 = Carro(5, "Ka", 30000)                                 Ka
+print(c1)                                                 30000
+print(c1.get_valor())                                      5
+print(c1.get_portas())
+
+c2 = Carro(4, "Ka")                                        Ka
+print(c2)                                                  0
+print(c2.get_valor())                                      4
+print(c2.get_portas())
+
+print("get_valor" in Veiculo.__dict__)                    True
+print("get_valor" in Carro.__dict__)                      False
+print("__str__" in Veiculo.__dict__)                      True
+print("__str__" in Carro.__dict__)                        False
+print("get_portas" in Veiculo.__dict__)                   False
+print("get_portas" in Carro.__dict__)                     True
+
+'''
