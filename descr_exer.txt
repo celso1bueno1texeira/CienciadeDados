@@ -1,0 +1,75 @@
+'''Há duas maneiras usuais de se expressar a eficiência do uso de combustíveis em carros no Brasil: (1) em km/L (quilômetro por litro); e (2) L/100 km (litros para cada 100 quilômetro).
+
+Faça um programa em Python 3 que leia da entrada padrão uma linha com um valor real, n, que representa o número de km/L e imprima o valor convertido em L/100 km na saída padrão, com duas casas decimais.
+
+For example:
+
+Input	Result
+10.00
+10.00
+5.00
+20.00
+12.00
+8.33
+5.10
+19.61
+'''
+"""
+exer06
+  >>> Faça um programa em Python 3 que leia uma linha contendo um texto (string) da entrada padrão e imprima o texto com todos os seus caracteres em minúsculo.
+Dica:
+Uma maneira de fazer a leitura é:
+texto = input()
+A função s.lower() retorna a string, s, em minúsculo.
+
+"""
+
+'''
+Faça um programa em Python 3 que leia uma linha contendo um número inteiro de 4 dígitos e calcule a soma dos dígitos. Por exemplo para o número 1234 o resultado é 1 + 2 + 3 + 4 = 10
+Dica:
+Não converta todo o número como um único inteiro, ao invés acesse cada dígito separadamente e então coverta cada dígitos em inteiro.
+valor = input()
+digito0 = int(valor[0])
+digito1 = int(valor[1])
+
+'''
+
+'''
+Faça um programa em Python3 que leia da entrada padrão o nomes de meses, um em cada linha, e para cada mês imprima uma linha com o valor numérico daquele mês (inteiro). Use o dicionário definido abaixo, a entrada termina com uma linha com a palavra 'fim'. O nome do mês pode conter caracteres maiúsculos e minúsculos (use lower).
+meses = {
+    'janeiro': 1,
+    'fevereiro': 2,
+    'março': 3,
+    'abril': 4,
+    'maio': 5,
+    'junho': 6,
+    'julho': 7,
+    'agosto': 8,
+    'setembro': 9,
+    'outubro': 10,
+    'novembro': 11,
+    'dezembro': 12,
+}
+For example:
+Input	Result
+setembro
+SETEMBRO
+Agosto
+fim
+9
+9
+8
+Setembro
+fim
+9
+ABRIL
+MAIO
+maio
+fim
+4
+5
+5
+fim
+
+
+'''
