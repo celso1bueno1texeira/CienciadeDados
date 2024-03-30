@@ -73,3 +73,39 @@ fim
 
 
 '''
+
+"""
+Escreva uma função em Python 3 com o seguinte protótipo:
+quadrado(x)
+Sua função deve retornar o quadrado do número x. O código que usa esta função é automaticamente atrelado pelo corretor.
+Uma resposta para esta questão é
+def quadrado(x):
+    return x*x
+For example:
+Test	Input	Result
+value = int(input())
+print(quadrado(value))
+2
+4
+value = int(input())
+print(quadrado(value))
+3
+9
+"""
+
+"""
+Escreva uma função em Python 3 com o seguinte protótipo:
+maior(a, b)
+Sua função deve retornar o maior valor entre a e b. Sua função deve retornar o valor mesmo quando a for igual a b.
+For example:
+Test	Input	Result
+a, b = map(int, input().split())
+print(maior(a, b))
+2 3
+3
+a, b = map(int, input().split())
+print(maior(a, b))
+7 2
+7
+
+"""
